@@ -1,6 +1,6 @@
 export const USERS = [
   {
-    user: "vineesfbljbjdfhjgt",
+    user: "vineet",
     image:
       "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
   },
