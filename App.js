@@ -3,6 +3,7 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import HomeScreen from "./screens/HomeScreen";
 import { Platform } from "react-native";
+import NewPostScreen from "./screens/NewPostScreen";
 
 export default function App() {
   if (Platform.OS === "android") {
@@ -10,5 +11,5 @@ export default function App() {
     require("intl"); // import intl object
     require("intl/locale-data/jsonp/en-IN"); // load the required locale details
   }
-  return <HomeScreen />;
+  return <NewPostScreen />;
 }
