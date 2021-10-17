@@ -12,6 +12,8 @@ import { Formik } from "formik";
 import { Divider } from "react-native-elements";
 import validUrl from "valid-url";
 
+import { useNavigation } from "@react-navigation/native";
+
 const PLACEHOLDER_IMG =
   "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png";
 
@@ -20,8 +22,9 @@ const uploadPostSchema = Yup.object().shape({
   caption: Yup.string().max(2200, "Caption has reached the character Limit"),
 });
 
-const FormikPostUploader = ({ navigation }) => {
+const FormikPostUploader = () => {
   const [thumbnailUrl, setThumbnailUrl] = useState(PLACEHOLDER_IMG);
+  const navigation = useNavigation();
   return (
     <Formik
       initialValues={{ caption: "", imageUrl: "" }}
