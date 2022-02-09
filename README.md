@@ -26,7 +26,7 @@ Screenshot 3 - Incorrect Login Details
 
 Screenshot 4 - Home Screen - Feed
 
-<img src = "https://github.com/vintu2001/Instagram-Clone/blob/master/IMG_2888.PNG.PNG"  height="450" width = "250">
+<img src = "https://github.com/vintu2001/Instagram-Clone/blob/master/IMG_2888.PNG"  height="450" width = "250">
 
 
 Screenshot 5 - Adding new Post
